@@ -4,6 +4,7 @@ resource "ibm_compute_vm_instance" "vm1" {
   domain               = var.domain
   quote_id             = var.quote_id
   datacenter           = var.datacenter
+  hourly_billing       = var.hourly_billing
 
   # Optional fields
   # network_speed        = 1000
