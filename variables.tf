@@ -1,19 +1,19 @@
-variable "service_name" {
-  default = "myservice"
+variable "quote_id" {
+  default = ""
 }
 
-variable "service_type" {
-  default = "cloud-object-storage"
+variable "hostname" {
+  default = ""
 }
 
-variable "plan" {
-  default = "lite"
+variable "domain" {
+  default = "cadence.poc"
 }
 
-variable "location" {
-  default = "global"
+variable "datacenter" {
+  default = "sjc04"
 }
 
-variable "name" {
-  default = "default"
+variable "hourly_billing" {
+  default = true
 }
