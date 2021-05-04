@@ -1,8 +1,8 @@
 variable "iaas_classic_username" {
-   type = "string"
+   type = string
 }
 variable "iaas_classic_api_key" {
-   type = "string"
+   type = string
 }
 
 provider "ibm" {
