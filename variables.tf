@@ -27,3 +27,9 @@ variable "hourly_billing" {
   description = "Is this server billed hourly - true/false."
   default = true
 }
+
+variable "private_vlan_id" {
+  type        = int
+  description = "Private VLAN ID."
+  default = 0
+}
