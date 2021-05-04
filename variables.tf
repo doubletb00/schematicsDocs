@@ -1,23 +1,23 @@
 variable "quote_id" {
-  type        = "string"
+  type        = string
   description = "The quote ID for this order."
   default = ""
 }
 
 variable "hostname" {
-  type        = "string"
+  type        = string
   description = "The hostname for this server."
   default = ""
 }
 
 variable "domain" {
-  type        = "string"
+  type        = string
   description = "The domain name for this server"
   default = "cadence.poc"
 }
 
 variable "datacenter" {
-  type        = "string"
+  type        = string
   description = "The data center to deploy this servere in."
   default = "sjc04"
 }
@@ -29,7 +29,7 @@ variable "hourly_billing" {
 }
 
 variable "private_vlan_id" {
-  type        = int
+  type        = integer
   description = "Private VLAN ID."
   default = 0
 }
