@@ -29,7 +29,7 @@ variable "hourly_billing" {
 }
 
 variable "private_vlan_id" {
-  type        = integer
+  type        = number
   description = "Private VLAN ID."
   default = 0
 }
